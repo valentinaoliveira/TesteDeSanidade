@@ -1,0 +1,5 @@
+{
+    "presets": ["@babel/preset-env", "@babel/preset-react"]
+  }
+//O @babel/preset-env permite que você use as funcionalidades mais recentes do JavaScript.
+//O @babel/preset-react garante que o JSX (do React) seja compilado corretamente.  

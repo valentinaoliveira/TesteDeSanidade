@@ -1,0 +1,76 @@
+/* Centraliza o box na tela */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f3f3;
+    margin: 0;
+  }
+  
+  /* Estiliza o box */
+  .login-box {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 360px;
+    text-align: center;
+  }
+  
+  /* Título */
+  .login-box h2 {
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Estiliza os inputs */
+  .login-box input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Botão */
+  .login-box button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .login-box button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Mensagens */
+  .message {
+    margin-top: 10px;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .message.success {
+    color: #155724;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+  }
+  
+  .message.error {
+    color: #721c24;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+  }
+  
