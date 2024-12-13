@@ -60,3 +60,11 @@ Este tipo de teste é útil para:
 - Cobertura de cenários adicionais, como validação de credenciais e acessibilidade.
 
 ---
+## Autor 
+
+Julia de Lima e Valentina Leite
+
+---
+## Link do vídeo
+
+https://youtu.be/mGuW0zA3gPk
